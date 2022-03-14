@@ -1,9 +1,10 @@
 import React from 'react'
+import profilepic from "../assets/dd.jpg"
 
 const Body = () => {
     return (
         <figure className='rounded-xl'>
-            <img className='w-24 h-24 rounded-full mx-auto' src="../assets/dd.jpg" alt="" width="384" height="400"/>
+            <img className='w-24 h-24 rounded-full mx-auto' src={profilepic} alt="" width="384" height="400"/>
             <div className='pt-6 text-center space-y-4'>
                 <blockquote>
                     <p className='text-lg font-medium'>
